@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|c:\\users\\acer\\source\\repos\\esemkalibrary\\esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|c:\\users\\acer\\source\\repos\\esemkalibrary\\esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|c:\\users\\acer\\source\\repos\\esemkalibrary\\esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|c:\\users\\acer\\source\\repos\\esemkalibrary\\esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
+              "RelativeToolTip": "EsemkaLibrary\\MainForm.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAqwLkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T13:32:52.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs [Design]",
+              "RelativeToolTip": "EsemkaLibrary\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T13:25:30.375Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowingForm.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\BorrowingForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs*",
+              "RelativeToolTip": "EsemkaLibrary\\BorrowingForm.cs*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA6wFsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T12:07:59.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BorrowingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\BorrowingForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs [Design]*",
+              "RelativeToolTip": "EsemkaLibrary\\BorrowingForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T11:55:54.843Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
