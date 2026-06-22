@@ -26,7 +26,7 @@ public partial class EsemkaLibraryContext : DbContext
     public virtual DbSet<Member> Members { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS01;Initial Catalog=EsemkaLibrary;Integrated Security=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-36ISMK5\\SQLEXPRESS;Initial Catalog=EsemkaLibrary;Integrated Security=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\model\\esemkalibrarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|d:\\lks\\esemkalibrary\\esemkalibrary\\esemkalibrary\\esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|d:\\lks\\esemkalibrary\\esemkalibrary\\esemkalibrary\\esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|d:\\lks\\esemkalibrary\\esemkalibrary\\esemkalibrary\\esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|d:\\lks\\esemkalibrary\\esemkalibrary\\esemkalibrary\\esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\borrowingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|d:\\lks\\esemkalibrary\\esemkalibrary\\esemkalibrary\\esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2CA95E-8F2A-D0D3-FD88-0CA5AA8837E9}|EsemkaLibrary\\EsemkaLibrary.csproj|solutionrelative:esemkalibrary\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\MainForm.cs",
+              "ToolTip": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs [Design]",
+              "RelativeToolTip": "EsemkaLibrary\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:52:54.779Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BorrowingForm.cs [Design]",
+              "DocumentMoniker": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary\\BorrowingForm.cs",
+              "ToolTip": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs [Design]",
+              "RelativeToolTip": "EsemkaLibrary\\BorrowingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:52:03.661Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,33 +64,33 @@
               "RelativeDocumentMoniker": "EsemkaLibrary\\Model\\EsemkaLibraryContext.cs",
               "ToolTip": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\Model\\EsemkaLibraryContext.cs",
               "RelativeToolTip": "EsemkaLibrary\\Model\\EsemkaLibraryContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T00:41:27.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
               "RelativeDocumentMoniker": "EsemkaLibrary\\MainForm.cs",
               "ToolTip": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\MainForm.cs",
               "RelativeToolTip": "EsemkaLibrary\\MainForm.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAzwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T13:32:52.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BorrowingForm.cs",
               "DocumentMoniker": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs",
               "RelativeDocumentMoniker": "EsemkaLibrary\\BorrowingForm.cs",
               "ToolTip": "D:\\LKS\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\EsemkaLibrary\\BorrowingForm.cs",
               "RelativeToolTip": "EsemkaLibrary\\BorrowingForm.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAwwIEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T12:07:59.651Z",
               "EditorCaption": ""

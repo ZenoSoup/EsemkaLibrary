@@ -62,7 +62,9 @@ namespace EsemkaLibrary
                                                       .ToList()),
                            Author = b.Author,
                            Stock = b.Stock,
-                           PublishDate = Convert.ToDateTime(b.PublishDate).ToString("dd MMMM yyyy"),
+                           PublishDate = b.PublishDate != null 
+                                         ? b.PublishDate.Value.ToDateTime(TimeOnly.MinValue).ToString("dd MMMM yyyy")
+                                         : "",
                            Action = "Borrow"
                        }).ToList();
 

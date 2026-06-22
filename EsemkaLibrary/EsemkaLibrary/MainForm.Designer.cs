@@ -59,9 +59,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(321, 9);
+            label1.Location = new Point(225, 5);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(513, 38);
+            label1.Size = new Size(346, 25);
             label1.TabIndex = 0;
             label1.Text = "ESEMKA Library Management System";
             // 
@@ -71,9 +72,11 @@
             groupBox1.Controls.Add(tbName);
             groupBox1.Controls.Add(label2);
             groupBox1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(27, 76);
+            groupBox1.Location = new Point(19, 46);
+            groupBox1.Margin = new Padding(2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1100, 125);
+            groupBox1.Padding = new Padding(2);
+            groupBox1.Size = new Size(770, 75);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Member Data";
@@ -81,9 +84,10 @@
             // btnSearch
             // 
             btnSearch.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSearch.Location = new Point(911, 51);
+            btnSearch.Location = new Point(638, 31);
+            btnSearch.Margin = new Padding(2);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(183, 34);
+            btnSearch.Size = new Size(128, 20);
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
@@ -92,17 +96,19 @@
             // tbName
             // 
             tbName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbName.Location = new Point(112, 50);
+            tbName.Location = new Point(78, 30);
+            tbName.Margin = new Padding(2);
             tbName.Name = "tbName";
-            tbName.Size = new Size(772, 34);
+            tbName.Size = new Size(542, 25);
             tbName.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(24, 54);
+            label2.Location = new Point(17, 32);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(68, 28);
+            label2.Size = new Size(49, 19);
             label2.TabIndex = 0;
             label2.Text = "Name";
             // 
@@ -110,9 +116,11 @@
             // 
             groupBox2.Controls.Add(dgvBorrowing);
             groupBox2.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            groupBox2.Location = new Point(27, 207);
+            groupBox2.Location = new Point(19, 124);
+            groupBox2.Margin = new Padding(2);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1100, 255);
+            groupBox2.Padding = new Padding(2);
+            groupBox2.Size = new Size(770, 153);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Borrowing Data";
@@ -126,11 +134,12 @@
             dgvBorrowing.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvBorrowing.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvBorrowing.Columns.AddRange(new DataGridViewColumn[] { id, title, borrowDate, dueDate, overdueDays, Action });
-            dgvBorrowing.Location = new Point(24, 43);
+            dgvBorrowing.Location = new Point(17, 26);
+            dgvBorrowing.Margin = new Padding(2);
             dgvBorrowing.Name = "dgvBorrowing";
             dgvBorrowing.ReadOnly = true;
             dgvBorrowing.RowHeadersWidth = 62;
-            dgvBorrowing.Size = new Size(1070, 192);
+            dgvBorrowing.Size = new Size(749, 115);
             dgvBorrowing.TabIndex = 0;
             dgvBorrowing.CellContentClick += dgvBorrowing_CellContentClick;
             // 
@@ -194,9 +203,10 @@
             // 
             btnNewBorrowing.Enabled = false;
             btnNewBorrowing.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNewBorrowing.Location = new Point(27, 470);
+            btnNewBorrowing.Location = new Point(19, 282);
+            btnNewBorrowing.Margin = new Padding(2);
             btnNewBorrowing.Name = "btnNewBorrowing";
-            btnNewBorrowing.Size = new Size(244, 40);
+            btnNewBorrowing.Size = new Size(171, 24);
             btnNewBorrowing.TabIndex = 3;
             btnNewBorrowing.Text = "New Borrowing";
             btnNewBorrowing.UseVisualStyleBackColor = true;
@@ -205,14 +215,14 @@
             // lblTime
             // 
             lblTime.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            lblTime.AutoSize = true;
             lblTime.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTime.Location = new Point(1057, 482);
+            lblTime.Location = new Point(485, 287);
+            lblTime.Margin = new Padding(2, 0, 2, 0);
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(70, 28);
+            lblTime.Size = new Size(300, 19);
             lblTime.TabIndex = 4;
             lblTime.Text = "label3";
-            lblTime.TextAlign = ContentAlignment.MiddleCenter;
+            lblTime.TextAlign = ContentAlignment.MiddleRight;
             // 
             // timer
             // 
@@ -222,15 +232,16 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1154, 540);
+            ClientSize = new Size(808, 324);
             Controls.Add(lblTime);
             Controls.Add(btnNewBorrowing);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(2);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ESEMKA Library";
