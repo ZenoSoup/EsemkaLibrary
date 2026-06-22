@@ -120,7 +120,10 @@ namespace EsemkaLibrary
                 Repo.db.Borrowings.Add(borrowing);
                 Repo.db.SaveChanges();
 
-                loadTable();
+                MessageBox.Show($"Success borrow \"{book.Title}.\"\n" +
+                                $"Due date is 7 days from today", "Notification");
+
+                this.Close();
             }
         }
     }

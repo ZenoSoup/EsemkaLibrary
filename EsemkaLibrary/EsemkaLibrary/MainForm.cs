@@ -35,7 +35,7 @@ namespace EsemkaLibrary
                                      .Select(m => m.Name)
                                      .ToList();
 
-            AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
+            var collection = new AutoCompleteStringCollection();
             collection.AddRange(names.ToArray());
 
             tbName.AutoCompleteMode = AutoCompleteMode.Suggest;
@@ -56,7 +56,7 @@ namespace EsemkaLibrary
                 return;
             }
 
-            if (!Repo.db.Members.Any(m => m.Name.Contains(tbName.Text)))
+            if (!Repo.db.Members.Any(m => m.Name == tbName.Text))
             {
                 MessageBox.Show("Member doesn't exist", "No member found");
                 return;
@@ -72,17 +72,17 @@ namespace EsemkaLibrary
 
         private void loadBorrowingTable()
         {
-            List<DataBorrowingTable> borrowings = Repo.db.Borrowings
-                                                .Where(b => b.MemberId == memberId && b.ReturnDate == null)
-                                                .Select(b => new DataBorrowingTable
-                                                {
-                                                    Id = b.Id,
-                                                    Title = b.Book.Title,
-                                                    BorrowDate = b.BorrowDate.ToString("dd MMMM yyyy"),
-                                                    DueDate = b.BorrowDate.AddDays(7).ToString("dd MMMM yyyy"),
-                                                    OverdueDays = (DateTime.Now - b.BorrowDate.AddDays(7)).Days,
-                                                    LinkText = "return"
-                                                }).ToList();
+            var borrowings = Repo.db.Borrowings
+                            .Where(b => b.MemberId == memberId && b.ReturnDate == null)
+                            .Select(b => new DataBorrowingTable
+                            {
+                                Id = b.Id,
+                                Title = b.Book.Title,
+                                BorrowDate = b.BorrowDate.ToString("dd MMMM yyyy"),
+                                DueDate = b.BorrowDate.AddDays(7).ToString("dd MMMM yyyy"),
+                                OverdueDays = (DateTime.Now - b.BorrowDate.AddDays(7)).Days,
+                                LinkText = "return"
+                            }).ToList();
 
             dgvBorrowing.Rows.Clear();
 
@@ -166,13 +166,13 @@ namespace EsemkaLibrary
                 if (Convert.ToInt32(row.Cells["overdueDays"].Value) > 0)
                 {
                     int fine = Convert.ToInt32(row.Cells["overdueDays"].Value) * 2000;
-                    MessageBox.Show($"Success return \"{book.Title}\" \nMember needs to pay fine: {fine} IDR");
+                    MessageBox.Show($"Success return \"{book.Title}\" \nMember needs to pay fine: {fine} IDR", "Notification");
                     borrowing.Fine = fine;
                 }
 
                 else
                 {
-                    MessageBox.Show($"Success return \"{book.Title}\"");
+                    MessageBox.Show($"Success return \"{book.Title}\"", "Notification");
                 }
 
                 Repo.db.SaveChanges();
