@@ -52,20 +52,20 @@ namespace EsemkaLibrary
         {
             if (string.IsNullOrEmpty(tbName.Text))
             {
-                MessageBox.Show("Please enter a member name first", "Member name expected");
+                MessageBox.Show("Please enter a member name first", "Notification");
                 return;
             }
 
             if (!Repo.db.Members.Any(m => m.Name == tbName.Text))
             {
-                MessageBox.Show("Member doesn't exist", "No member found");
+                MessageBox.Show("Member not found", "Notification");
                 return;
             }
 
             var member = Repo.db.Members.FirstOrDefault(m => m.Name.Contains(tbName.Text))!;
             memberId = member.Id;
 
-            MessageBox.Show("Member found");
+            MessageBox.Show("Member found", "Notification");
 
             loadBorrowingTable();
         }
